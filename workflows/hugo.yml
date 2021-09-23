@@ -22,8 +22,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: UK_GT/ukuu.github.io
+          external_repository: UK-GT/ukuu.github.io
           publish_dir: ./public
-          user_name: UK_GT
+          user_name: UK-GT
           user_email: bigfootk@gmaul.com
           publish_branch: gh-pages
